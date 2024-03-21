@@ -156,7 +156,7 @@ const Login = () => {
               </Typography>
             </Grid>
             <Typography variant="h4" align="center">
-              Welcome to Bus Ticket Manager
+              Welcome to RouteEase
             </Typography>
             <Grid
               item
