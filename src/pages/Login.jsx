@@ -87,6 +87,10 @@ const Login = () => {
     return () => clearTimeout(timer);
   }, [error]);
 
+  const handleAboutButton = () => {
+    navigate("/about");
+  };
+
   return (
     <Grid
       container
@@ -108,6 +112,18 @@ const Login = () => {
           margin: 10
         }}
       />
+      <Button
+        variant="contained"
+        onClick={handleAboutButton}
+        style={{
+          position: "absolute",
+          top: 0,
+          right: 0,
+          margin: 10,
+        }}
+      >
+        About
+      </Button>
       <Paper>
         <Grid
           container
