@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import propTypes from "prop-types";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
+import About from "../pages/About";
 import Ticket from "../pages/Ticket";
 
 const AppRouter = () => {
@@ -13,6 +14,7 @@ const AppRouter = () => {
     <AnimatePresence>
       <Routes location={location}>
         <Route path="/" element={<MotionRouteWrapper element={<Home />} />} />
+        <Route path="/about" element={<MotionRouteWrapper element={<About />} />} />
         <Route path="/login" element={<MotionRouteWrapper element={<Login />} />} />
         <Route path="/ticket/*" element={<MotionRouteWrapper element={<Ticket />} />} />
       </Routes>
