@@ -176,6 +176,21 @@ const About = () => {
             />
           </Grid>
         </Grid>
+        <Grid
+          container
+          padding={2}
+          flexDirection="column"
+          justifyContent="center"
+        >
+          <Typography variant="h3" textAlign="center" paddingBottom={2}>
+            Team Members
+          </Typography>
+          <Typography variant="h4" padding={2}>
+            Arkapravo Ghosh - Sec C - Roll 10<br />
+            Shreyansh De - Sec B - Roll 43<br />
+            Namrata Saha - Sec C - Roll 28<br />
+          </Typography>
+        </Grid>
       </Paper>
     </Grid>
   );
